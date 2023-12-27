@@ -1,0 +1,362 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 16px; /* Set a base font size for the body */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://img.staticmb.com/mbimages/project/Photo_h310_w462/2021/03/03/Project-Photo-3-The-Social-Street-Pune-5232121_600_800_310_462.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.my-position-css {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+.centered-text {
+  width: 300px;
+  height: 300px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.success-text {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.pngimages.in/uploads/png-webp/2022/2022-December/check_mark_Transparent_Images_Png.webp");
+  border-radius: 50%;
+  margin: auto;
+}
+h6 {
+  text-align: center;
+}
+.tabs-button {
+  font-size: 15px;
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.icon-space {
+  margin-left: 10px;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.submit-btn {
+  margin-top: 10px;
+  padding: 10px 40px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: rgb(102, 197, 102);
+  color: white;
+}
+
+.submit-btn:active {
+  animation: pulsate 0.5s ease;
+}
+.myclass {
+  width: 100%;
+  max-width: 900px;
+  margin: 0px auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+}
+
+.my-class-css {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  border: 2px solid black;
+  width: 200px;
+  padding: 5px 0px !important;
+  margin: 0px 0px 10px 0px;
+  position: relative;
+}
+.my-span {
+  position: absolute;
+  top: 4px;
+  right: 2px;
+  width: 20px;
+  height: auto;
+  background-color: green;
+  border-radius: 50%;
+  color: white;
+}
+
+.astric-none {
+  margin: 0px 9px;
+}
+
+.header-img {
+  width: 122px; /* Adjust width for smaller screens */
+  position: absolute;
+}
+
+.top-heading-name {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.visit-css {
+  font-weight: 500;
+}
+.heading-style {
+  font-size: 40px; /* Adjust font size for smaller screens */
+  margin-top: 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-family: "Trirong", serif;
+  /* border: 2px solid #4351E8; */
+}
+
+.form-control {
+  font-size: 15px; /* Adjust font size for smaller screens */
+  border-radius: 10px;
+}
+.btn {
+  font-size: 15px;
+}
+.container-my-class {
+  width: 100%;
+}
+.active-button {
+  color: #fff !important;
+  background-color: #0b5ed7 !important;
+  border-color: #0a58ca !important;
+}
+
+form {
+  font-size: 1.5rem; /* Adjust font size for smaller screens */
+  padding: 20px 20px;
+}
+
+.astric {
+  color: red;
+  margin: 0px 5px;
+}
+
+#peopleCounter {
+  font-size: 15px;
+}
+#people_style {
+  font-size: 15px;
+  margin-right: 6px;
+}
+.footer-for-model {
+  display: flex;
+}
+.my-class-css-people {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  border: 2px solid black;
+  width: 205px;
+  padding: 5px 0px !important;
+  margin: 0px 0px 10px 0px;
+  position: relative;
+}
+
+/* modal css strat */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  border-radius: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-header {
+  display: block;
+  text-align: center;
+  padding: 5px 5px;
+  border: none;
+}
+.btn-link {
+  border: none;
+  text-decoration: none;
+}
+#userDetails {
+  font-size: 15px;
+  padding: 0px;
+}
+.btn-Verify {
+  width: 200px;
+  margin: auto;
+}
+.otp-css {
+  padding: 10px;
+}
+.timer-class {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.otpForm {
+  padding: 5px !important;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: auto;
+  height: 150px;
+  max-height: 150px;
+  overflow-y: auto; /* Add this line for the vertical scrollbar */
+  top: 35px;
+  right: 0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content::-webkit-scrollbar {
+  width: 5px; /* Adjust the width as needed */
+}
+
+.dropdown-content::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar thumb color */
+}
+
+.dropdown-content::-webkit-scrollbar-track {
+  background-color: #f9f9f9; /* Scrollbar track color */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+/* end modal css */
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 15px 0px;
+    height: 100%; /* Adjust base font size for smaller screens */
+  }
+
+  .myclass {
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 500px; /* Adjust maximum width for smaller screens */
+  }
+
+  .header-img {
+    width: 60px; /* Adjust width for smaller screens */
+  }
+
+  .heading-style {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .form-control {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  form {
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+  }
+
+  .button {
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+  }
+  .mobile-grid {
+    gap: 10px;
+  }
+  .mobile-text {
+    text-align: left;
+  }
+  #userDetails {
+    font-size: 17px;
+  }
+  #timer {
+    font-size: 12px;
+  }
+
+  .modal-content {
+    width: 80%;
+    font-size: 10px;
+  }
+}
